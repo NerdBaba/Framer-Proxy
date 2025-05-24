@@ -1,0 +1,16 @@
+{
+  "name": "framer-proxy",
+  "version": "1.0.0",
+  "description": "Cloudflare Pages proxy for Framer website with badge removal",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler pages dev ./public",
+    "deploy": "wrangler pages publish ./public"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+} 

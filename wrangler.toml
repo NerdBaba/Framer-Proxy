@@ -1,0 +1,14 @@
+# Main worker entry point
+main = "workers-site/index.js"
+
+# Compatibility date
+compatibility_date = "2025-04-08"
+
+[site]
+bucket = "./public"
+
+[env.production]
+name = "framer-proxy"
+
+[build]
+command = "mkdir -p public" 
